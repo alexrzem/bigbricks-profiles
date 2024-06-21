@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-300;
+}
+
+.swatch-box {
+  @apply flex p-2 items-center justify-center rounded-md font-mono text-xs border-gray-300 border-2;
+}
+
+.swatch-army-beige {
+  @apply bg-fdm-army-beige text-fdm-army-beige-inv;
+}
+
+.swatch-army-brown {
+  @apply bg-fdm-army-brown text-fdm-army-brown-inv;
+}
+.swatch-ash-grey {
+  @apply bg-fdm-ash-grey text-fdm-ash-grey-inv;
+}
+.swatch-black-charcoal {
+  @apply bg-fdm-black-charcoal text-fdm-black-charcoal-inv;
+}
+.swatch-red-cherry {
+  @apply bg-fdm-red-cherry text-fdm-red-cherry-inv;
+}
+.swatch-white-cotton {
+  @apply bg-fdm-white-cotton text-fdm-white-cotton-inv;
+}
+.swatch-cream {
+  @apply bg-fdm-cream text-fdm-cream-inv;
+}
+.swatch-earth-brown {
+  @apply bg-fdm-earth-brown text-fdm-earth-brown-inv;
+}
+.swatch-silver {
+  @apply bg-fdm-silver text-fdm-silver-inv;
+}
+.swatch-grey-blue {
+  @apply bg-fdm-grey-blue text-fdm-grey-blue-inv;
+}
+.swatch-grey {
+  @apply bg-fdm-grey text-fdm-grey-inv;
+}
+.swatch-blue-light {
+  @apply bg-fdm-blue-light text-fdm-blue-light-inv;
+}
+.swatch-grey-light-matte {
+  @apply bg-fdm-grey-light-matte text-fdm-grey-light-matte-inv;
+}
+.swatch-grey-light {
+  @apply bg-fdm-grey-light text-fdm-grey-light-inv;
+}
+.swatch-navy-matte {
+  @apply bg-fdm-navy-matte text-fdm-navy-matte-inv;
+}
+.swatch-orange-matte {
+  @apply bg-fdm-orange-matte text-fdm-orange-matte-inv;
+}
+.swatch-terracotta-matte {
+  @apply bg-fdm-terracotta-matte text-fdm-terracotta-matte-inv;
+}
+.swatch-wood-brown-matte {
+  @apply bg-fdm-wood-brown-matte text-fdm-wood-brown-matte-inv;
+}
+.swatch-green-military {
+  @apply bg-fdm-green-military text-fdm-green-military-inv;
+}
+.swatch-green-muted {
+  @apply bg-fdm-green-muted text-fdm-green-muted-inv;
+}
+.swatch-white-muted {
+  @apply bg-fdm-white-muted text-fdm-white-muted-inv;
+}
+.swatch-orange {
+  @apply bg-fdm-orange text-fdm-orange-inv;
+}
+.swatch-pastel-ice {
+  @apply bg-fdm-pastel-ice text-fdm-pastel-ice-inv;
+}
+.swatch-black {
+  @apply bg-fdm-black text-fdm-black-inv;
+}
+.swatch-gold {
+  @apply bg-fdm-gold text-fdm-gold-inv;
+}
+.swatch-gold-silk {
+  @apply bg-fdm-gold-silk text-fdm-gold-silk-inv;
+}
+.swatch-green {
+  @apply bg-fdm-green text-fdm-green-inv;
+}
+.swatch-red {
+  @apply bg-fdm-red text-fdm-red-inv;
+}
+.swatch-yellow {
+  @apply bg-fdm-yellow text-fdm-yellow-inv;
+}
+.swatch-white {
+  @apply bg-fdm-white text-fdm-white-inv;
+}
+.swatch-red-fire-engine {
+  @apply bg-fdm-red-fire-engine text-fdm-red-fire-engine-inv;
+}
+.swatch-rose {
+  @apply bg-fdm-rose text-fdm-rose-inv;
+}
+.swatch-brown-light-matte {
+  @apply bg-fdm-brown-light-matte text-fdm-brown-light-matte-inv;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "colours": ["black-charcoal", "blue-light", "orange", "red", "yellow"],
+    "imageUrl": "/IMG_5528.jpeg",
+    "key": "classic_spaceman",
+    "linkUrl": "https://than.gs/m/1063325",
+    "name": "Classic Spaceman"
+  },
+  {
+    "colours": ["black-charcoal", "pastel-ice", "terracotta-matte", "yellow"],
+    "imageUrl": "/IMG_6937.jpeg",
+    "key": "generic_figure",
+    "linkUrl": "https://than.gs/m/1066091",
+    "name": "Generic Figure"
+  }
+]
