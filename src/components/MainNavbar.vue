@@ -32,6 +32,7 @@
               <input
                 id="search"
                 name="search"
+                disabled="true"
                 class="block w-full rounded-md border-0 bg-gray-700 py-1.5 pl-10 pr-3 text-gray-300 placeholder:text-gray-400 focus:bg-white focus:text-gray-900 focus:ring-0 sm:text-sm sm:leading-6"
                 placeholder="Search"
                 type="search" />
