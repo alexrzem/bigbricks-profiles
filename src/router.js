@@ -12,7 +12,7 @@ export function createRouter(app) {
           path: "/",
           name: "root",
           component: () => import("./Home.vue"),
-          redirect: "starwars",
+          redirect: "#/starwars",
           children: [
             {
               name: "marvel",
