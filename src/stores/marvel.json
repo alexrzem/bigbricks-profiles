@@ -1,21 +1,21 @@
 [
   {
     "colours": ["black-charcoal", "gold-silk", "grey-light-matte", "red-fire-engine", "white-cotton"],
-    "imageUrl": "/IMG_7543.jpeg",
+    "imageUrl": "IMG_7543.jpeg",
     "key": "ironman",
     "linkUrl": "https://than.gs/m/1069854",
     "name": "Iron-Man"
   },
   {
     "colours": ["black-charcoal", "blue-light", "rose", "white-cotton"],
-    "imageUrl": "/IMG_7008.jpeg",
+    "imageUrl": "IMG_7008.jpeg",
     "key": "spidergwen",
     "linkUrl": "https://than.gs/m/1076245",
     "name": "Spider-Gwen"
   },
   {
     "colours": ["black-charcoal", "blue-light", "red", "white-cotton"],
-    "imageUrl": "/IMG_7133.jpeg",
+    "imageUrl": "IMG_7133.jpeg",
     "key": "spiderman",
     "linkUrl": "https://than.gs/m/1069854",
     "name": "Spider-Man"
@@ -34,7 +34,7 @@
       "white-cotton",
       "white-muted"
     ],
-    "imageUrl": "/IMG_7456.jpeg",
+    "imageUrl": "IMG_7456.jpeg",
     "key": "thor",
     "linkUrl": "https://than.gs/m/1069854",
     "name": "Thor"

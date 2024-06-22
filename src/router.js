@@ -1,11 +1,12 @@
-import { createRouter as createVueRouter, createWebHistory } from "vue-router";
+import { createRouter as createVueRouter, createWebHistory, createWebHashHistory } from "vue-router";
 
 export function createRouter(app) {
   let router = {};
 
   try {
     router = createVueRouter({
-      history: createWebHistory(import.meta.env.BASE_URL),
+      //history: createWebHashHistory(import.meta.env.BASE_URL),
+      history: createWebHashHistory(),
       routes: [
         {
           path: "/",
