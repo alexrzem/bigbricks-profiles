@@ -1,4 +1,4 @@
-import { createRouter as createVueRouter, createWebHistory, createWebHashHistory } from "vue-router";
+import { createRouter as createVueRouter, createWebHistory, createWebHashHistory } from 'vue-router';
 
 export function createRouter(app) {
   let router = {};
@@ -9,35 +9,34 @@ export function createRouter(app) {
       history: createWebHashHistory(),
       routes: [
         {
-          path: "/",
-          name: "root",
-          component: () => import("./Home.vue"),
-          redirect: "#/starwars",
-          children: [
-            {
-              name: "marvel",
-              path: "/marvel",
-              component: () => import("./components/Marvel.vue"),
-              meta: { requiresAuth: false },
-            },
-            {
-              name: "starwars",
-              path: "/starwars",
-              component: () => import("./components/StarWars.vue"),
-              meta: { requiresAuth: false },
-            },
-            {
-              name: "misc",
-              path: "/misc",
-              component: () => import("./components/Misc.vue"),
-              meta: { requiresAuth: false },
-            },
-          ],
+          path: '/',
+          name: 'root',
+          component: () => import('./Home.vue'),
+          redirect: { name: 'starwars' },
+          children: [],
+        },
+        {
+          name: 'marvel',
+          path: '/marvel',
+          component: () => import('./components/Marvel.vue'),
+          meta: { requiresAuth: false },
+        },
+        {
+          name: 'starwars',
+          path: '/starwars',
+          component: () => import('./components/StarWars.vue'),
+          meta: { requiresAuth: false },
+        },
+        {
+          name: 'misc',
+          path: '/misc',
+          component: () => import('./components/Misc.vue'),
+          meta: { requiresAuth: false },
         },
       ],
     });
   } catch (error) {
-    console.log("createVueRouter:", error);
+    console.log('createVueRouter:', error);
   }
 
   try {
@@ -51,7 +50,7 @@ export function createRouter(app) {
       }
     });
   } catch (error) {
-    console.log("beforeEach:", error);
+    console.log('beforeEach:', error);
   }
 
   /*

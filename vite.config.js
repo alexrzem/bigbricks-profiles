@@ -5,7 +5,7 @@ const base = '/bigbricks-profiles/';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/bigbricks-profiles/',
+  base: '/',
   root: 'src',
   build: {
     outDir: '../dist',

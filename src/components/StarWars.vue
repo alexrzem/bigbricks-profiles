@@ -1,4 +1,5 @@
 <template>
+  <main-navbar />
   <header class="bg-white shadow-sm">
     <div class="mx-auto py-4 container">
       <h1 class="text-lg font-semibold leading-6 text-gray-900">Star Wars</h1>
@@ -12,11 +13,12 @@
 </template>
 
 <script lang="js">
+import MainNavbar from './MainNavbar.vue';
 import BrickItems from './BrickItems.vue';
 import { useStarWarsStore } from '../stores/starwars';
 
 export default {
-  components: {BrickItems},
+  components: {BrickItems,MainNavbar},
   data() {
     return {};
   },

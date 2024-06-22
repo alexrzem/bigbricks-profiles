@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col p-8">
-    <img class="mx-auto flex-shrink-0 rounded-full" :src="profile.imageUrl" alt="" />
+    <img class="mx-auto flex-shrink-0 rounded-full" :src="'' + profile.imageUrl" alt="" />
     <h3 class="mt-6 text-sm font-medium text-gray-900">{{ profile.name }}</h3>
     <dl class="mt-1 flex flex-grow flex-col justify-between">
       <dt class="sr-only">Title</dt>
