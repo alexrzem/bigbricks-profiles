@@ -1,9 +1,16 @@
 [
   {
+    "colours": ["army-beige", "black-charcoal", "navy-matte", "white-cotton"],
+    "imageUrl": "IMG_7565.jpeg",
+    "key": "captain-america",
+    "linkUrl": "https://than.gs/m/1090462",
+    "name": "Captain America"
+  },
+  {
     "colours": ["black-charcoal", "gold-silk", "grey-light-matte", "red-fire-engine", "white-cotton"],
     "imageUrl": "IMG_7543.jpeg",
     "key": "ironman",
-    "linkUrl": "https://than.gs/m/1069854",
+    "linkUrl": "https://thangs.com/designer/BigBricks",
     "name": "Iron-Man"
   },
   {
@@ -36,7 +43,7 @@
     ],
     "imageUrl": "IMG_7456.jpeg",
     "key": "thor",
-    "linkUrl": "https://than.gs/m/1069854",
+    "linkUrl": "https://than.gs/m/1081427",
     "name": "Thor"
   }
 ]
